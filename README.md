@@ -1,14 +1,14 @@
 # 🎮 Simon Says Game
 
-An interactive, browser-based memory challenge inspired by the classic **Simon Says**. Built with vanilla HTML5, CSS3, and JavaScript, this project tests players' pattern recognition and focus as color-and-sound sequences grow with each round.
+An interactive, browser-based memory challenge inspired by the classic **Simon Says**. Built with vanilla HTML5, CSS3, and JavaScript, this project tests players' pattern recognition and focus as color sequences grow with each round.
 
 ---
 
 ## 🔗 Live Demo
 Play the game live directly in your browser:  
-👉 **Play Simon Says Game : https://poulami06.github.io/Simon-Say-Game/**
+👉 **[Play Simon Says Game](https://poulami06.github.io/Simon-Say-Game/)**
 
-> ⚠️ **Note:** This game is exclusively designed for **Desktop and Laptop browsers** because gameplay relies on physical keyboard keypress events to start. It is not optimized for mobile touchscreens[cite: 1].
+> ⚠️ **Note:** This game is exclusively designed for **Desktop and Laptop browsers** because gameplay relies on physical keyboard keypress events to start. It is not optimized for mobile touchscreens.
 
 ---
 
@@ -24,33 +24,16 @@ Play the game live directly in your browser:
 
 ## 💻 Tech Stack
 
-* **HTML5:** Layout structure and button containers.
-* **CSS3:** Game board grid, active button glow effects, and game-over flashes.
-* **JavaScript (ES6):** State machines, sequence tracking, array comparisons, and DOM updates.
+* **HTML5:** Semantic structure and layout.
+* **CSS3:** Game board grid, active button glow effects, and transitions.
+* **JavaScript (ES6):** State management, sequence tracking, and DOM manipulation.
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-├── index.html       # Markup and DOM structure
-├── style.css        # Colors, styling, and transitions
-├── app.js           # Core game logic and event handlers
-└── README.md        # Documentation and live preview
-
----
-
-## 💻 Run Locally
-
-To test or modify the source code on your local computer:
-
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/Poulami06/Simon-Say-Game.git](https://github.com/Poulami06/Simon-Say-Game.git)
-
----
-
-```bash
-git add README.md
-git commit -m "docs: streamline run locally steps"
-git push origin main
+├── index.html       # Game structure and UI elements
+├── style.css        # Visual styling and animations
+├── app.js           # Core game engine logic
+└── README.md        # Project documentation
